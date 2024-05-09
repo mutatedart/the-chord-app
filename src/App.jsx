@@ -12,6 +12,8 @@ function App() {
           <h4>by musicians for musicians</h4>
           <a href="#" target=""><button class="nav-button">Songs</button></a>
           <a href="#" target=""><button class="nav-button">Sets</button></a>
+          <a href="#" target=""><button class="nav-button">Login</button></a>
+          <a href="#" target=""><button class="nav-button">Signup</button></a>
         </div>
         <div className="container">
           <div className="paragraph">
@@ -32,7 +34,7 @@ function App() {
             If you have questions or need support, please contact us by clicking the button below. Please
             keep in mind that this is a tiny team, so it may take some time to
             respond or investigate any issues you have.
-            <a href="#" target="_blank"><button className="btn">Contact</button></a>
+            <a href="mailto:contact@thechord.app" target="_blank"><button className="btn">Contact</button></a>
           </div>
         </div>
       </div>

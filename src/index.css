@@ -45,7 +45,7 @@ h1 {
 button.nav-button {
   display: flexbox;
   border: none;
-  width: 50%;
+  width: 25%;
   height: 4rem;
   color: white;
   font-size: 1rem;
