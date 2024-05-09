@@ -1,0 +1,104 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  font-family: Ubuntu, Roboto, Montserrat, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #979be8;
+  text-decoration: none;
+  transition: 200ms;
+}
+a:hover {
+  color: #6045d6;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  background: #231c40;
+}
+
+button.nav-button {
+  display: flexbox;
+  border: none;
+  width: 50%;
+  height: 4rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+  background: #231c40;
+  border-top: 1px solid #663ebb;
+  transition: 300ms;
+}
+
+button.btn {
+  display: block;
+  border: none;
+  width: 200px;
+  height: 3rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+  margin: 1rem auto;
+  background: #231c40;
+  border: 1px solid #663ebb;
+  border-radius: 1rem;
+  transition: 300ms;
+}
+
+button.nav-button:hover {
+  background: #4c2589;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background: #6045d6;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(102,62,187,1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(102,62,187,1);
+  box-shadow: 0px 0px 30px 0px rgba(102,62,187,1);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
